@@ -1,0 +1,12 @@
+title: "{{ title }}"
+as_a: "{{ as_a }}"
+i_want: "{{ i_want }}"
+so_that: "{{ so_that }}"
+description: |
+  As a {{ as_a }},
+  I want {{ i_want }},
+  so that {{ so_that }}
+acceptance_criteria:
+{% for criterion in acceptance_criteria %}
+  - {{ criterion }}
+{% endfor %} 
