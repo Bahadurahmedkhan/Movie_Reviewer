@@ -1,1 +1,0 @@
-print("Hello, Ubuntu user! Welcome to your professional Python setup.") 
